@@ -61,6 +61,7 @@ html{scroll-behavior:smooth}
 </style>
 </head>
 <body>
+<div role="note" style="background: #FFB347; color: #1A1240; text-align: center; font-family: 'Exo 2', sans-serif; font-weight: 700; font-size: 14px; padding: 10px 16px">VISTA DE MUESTRA · Acá los proyectos se ven siempre. En el sitio oficial se revelan el 2 de diciembre a las 18 h.</div>
 <div style="background: #120E46; color: #FFFFFF; font-family: 'Exo 2', sans-serif; overflow-x: hidden">
 
 <!-- ===== NAV ===== -->
@@ -956,7 +957,7 @@ html{scroll-behavior:smooth}
 
   // ---- Revelado de proyectos: el día de la Expo (o con ?previa en la URL) ----
   var REVELA = new Date('2026-12-02T18:00:00-03:00').getTime();
-  var previa = /[?&]previa\b/.test(location.search);
+  var previa = true; // Rama vista-proyectos: los proyectos se muestran siempre, para explicar cómo se ve cada uno.
   var pronto = document.getElementById('pronto'), grilla = document.getElementById('grilla'), filtrosBox = document.getElementById('filtros');
   function revelar() {
     if (!grilla.hidden) return;

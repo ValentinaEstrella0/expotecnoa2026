@@ -1,5 +1,7 @@
 # Expo TecNOA 2026 · Innovación desde nuestra tierra
 
+> **Rama `vista-proyectos`:** versión de muestra con los proyectos siempre visibles, para explicar cómo se presenta cada uno (tarjeta con foto, botón *Más información* con dónde trabajaron e integrantes, y *Probar demo*). La versión oficial, con los proyectos ocultos hasta la Expo, está en `main`.
+
 Landing de la Expo TecNOA 2026: trabajos de campo de Sistemas de Información
 (Ing. Informática · Lic. en Sistemas · Ing. Industrial) de la Facultad de Ingeniería – UNJu.
 
